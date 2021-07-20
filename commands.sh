@@ -7,6 +7,11 @@ python launch_experiment_pearl.py ./configs/hopper-rand-params-pearl.json --gpu 
 python launch_experiment_pearl.py ./configs/metaworld-reach-pearl.json --gpu 1
 python launch_experiment_pearl.py ./configs/metaworld-reach-wall-pearl.json --gpu 1
 
+python launch_experiment_pearl_cont.py ./configs/metaworld-cont-pearl.json --gpu 2
+python launch_experiment_pearl_cont_2.py ./configs/metaworld-cont-2-pearl.json --gpu 1
+
+python launch_experiment_pearl_pi_cont.py ./configs/metaworld-cont-pearl.json --gpu 5
+
 python launch_experiment_metacure.py ./configs/ant-goal-sparse-metacure.json --gpu 0
 python launch_experiment_metacure.py ./configs/cheetah-vel-sparse-metacure.json --gpu 0
 python launch_experiment_metacure.py ./configs/walker-vel-sparse-metacure.json --gpu 1

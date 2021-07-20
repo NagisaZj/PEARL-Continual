@@ -1,0 +1,85 @@
+---------------------------  -------------------------------------------------------------
+Z mean train                 -0.000781472
+Z variance train             0.0013537935
+KL Divergence                224.24873
+KL Loss                      22.424873
+QF Loss                      43.918774
+VF Loss                      7.4673476
+Policy Loss                  -2.6947317
+Q Predictions Mean           -0.00037473196
+Q Predictions Std            0.00046016404
+Q Predictions Max            0.00093255145
+Q Predictions Min            -0.0017024828
+V Predictions Mean           -0.0031721604
+V Predictions Std            0.00035824286
+V Predictions Max            -0.0025506483
+V Predictions Min            -0.0036773374
+Log Pis Mean                 -2.6800861
+Log Pis Std                  0.43433508
+Log Pis Max                  -1.1795878
+Log Pis Min                  -4.4033566
+Policy mu Mean               1.1324966e-05
+Policy mu Std                0.0012641335
+Policy mu Max                0.0019128782
+Policy mu Min                -0.0018797417
+Policy log std Mean          0.00011408064
+Policy log std Std           0.0012620228
+Policy log std Max           0.002146798
+Policy log std Min           -0.0014187046
+AverageReturn_task_0         302.51518594530813
+AverageReturn_task_last_0    291.0101352198529
+AverageSuccess_task_last_0   0.0
+z_mean_task_0                [ 0.2611567  -0.04240772 -0.01730759 -0.02862225 -0.03433456]
+z_var_task_last_0            [0.20668727 0.20366876 0.2060401  0.20541073 0.20550321]
+AverageReturn_task_1         210.42830730237642
+AverageReturn_task_last_1    210.28613040287485
+AverageSuccess_task_last_1   0.0
+z_mean_task_1                [ 0.21310595 -0.03133802 -0.03673472 -0.04321832 -0.01963606]
+z_var_task_last_1            [0.1835491  0.18086952 0.18297526 0.18241496 0.18249714]
+AverageReturn_task_2         231.38844137032152
+AverageReturn_task_last_2    232.4501288218388
+AverageSuccess_task_last_2   0.0
+z_mean_task_2                [ 0.2077763  -0.03171149 -0.02697176 -0.03312245 -0.02300591]
+z_var_task_last_2            [0.1724814  0.169963   0.17194207 0.17141609 0.17149338]
+AverageReturn_task_3         114.52979721416288
+AverageReturn_task_last_3    116.83393283724375
+AverageSuccess_task_last_3   0.0
+z_mean_task_3                [ 0.15456414 -0.01884016 -0.0505495  -0.05154053 -0.00571335]
+z_var_task_last_3            [0.14859658 0.14642823 0.14813288 0.14767809 0.14774436]
+AverageReturn_task_4         43.60523803103993
+AverageReturn_task_last_4    43.19407185804673
+AverageSuccess_task_last_4   0.0
+z_mean_task_4                [ 0.14792328 -0.01307947 -0.08716503 -0.08319256  0.00817227]
+z_var_task_last_4            [0.16881426 0.16635312 0.16828881 0.16777062 0.1678454 ]
+AverageReturn_task_5         53.42761257214954
+AverageReturn_task_last_5    53.203382706389895
+AverageSuccess_task_last_5   0.0
+z_mean_task_5                [ 0.1546665  -0.01421423 -0.0874478  -0.0837907   0.00719066]
+z_var_task_last_5            [0.1741253  0.17158665 0.17358322 0.17304887 0.17312597]
+AverageReturn_task_6         1340.5343481328223
+AverageReturn_task_last_6    1330.3653563960431
+AverageSuccess_task_last_6   0.0
+z_mean_task_6                [ 0.77898455 -0.15910119  0.16870126  0.10384466 -0.18437052]
+z_var_task_last_6            [0.47117355 0.4642809  0.46968853 0.46826637 0.46847767]
+AverageReturn_task_7         499.60555828116935
+AverageReturn_task_last_7    496.90188375193094
+AverageSuccess_task_last_7   0.0
+z_mean_task_7                [ 0.3615731  -0.06588013  0.02533783  0.00229655 -0.06525046]
+z_var_task_last_7            [0.2530567  0.24935822 0.25226212 0.25149435 0.25160787]
+AverageReturn_task_8         12.101374873465671
+AverageReturn_task_last_8    11.71336654477589
+AverageSuccess_task_last_8   0.0
+z_mean_task_8                [ 0.12149644 -0.00884763 -0.08258495 -0.07757108  0.01074045]
+z_var_task_last_8            [0.14557782 0.14345574 0.14512505 0.14467768 0.14474227]
+AverageReturn_task_9         233.02160751350073
+AverageReturn_task_last_9    232.66474680315187
+AverageSuccess_task_last_9   0.0
+z_mean_task_9                [ 0.2317268  -0.03486561 -0.03432676 -0.04191348 -0.02367455]
+z_var_task_last_9            [0.1959803  0.1931192  0.19536738 0.1947696  0.1948571 ]
+Z mean eval                  0.019389277
+Z variance eval              0.19481872
+Number of train steps total  1000
+Number of env steps total    10000
+Number of rollouts total     0
+Epoch                        1000
+---------------------------  -------------------------------------------------------------

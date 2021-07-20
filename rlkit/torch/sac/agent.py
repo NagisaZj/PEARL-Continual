@@ -173,6 +173,24 @@ class PEARLAgent(nn.Module):
 
         return policy_outputs, task_z
 
+    def forward_2(self, obs, context):
+        ''' given context, get statistics under the current policy of a set of observations '''
+        self.infer_posterior(context)
+        self.sample_z()
+
+        task_z = self.z
+
+        t, b, _ = obs.size()
+        obs = obs.view(t * b, -1)
+        task_z = [z.repeat(b, 1) for z in task_z]
+        task_z = torch.cat(task_z, dim=0)
+
+        # run policy, get log probs and new actions
+        in_ = torch.cat([obs, task_z], dim=1)
+        policy_outputs = self.policy(in_, reparameterize=True, return_log_prob=True)
+
+        return policy_outputs, task_z
+
     def log_diagnostics(self, eval_statistics):
         '''
         adds logging data about encodings to eval_statistics
